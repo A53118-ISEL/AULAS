@@ -13,7 +13,7 @@ fun main() {
 //    println(pow1(2,4))
 //    println("Took: ${measureTime { pow1(2,4) }}")
 
-    println(pow2(2,4))
+//    println(pow2(2,4))
 //    println("Took: ${measureTime { pow2(2,4) }}")
 
 //    println(MaxSubArr(intArrayOf(13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7), 0, 15))
@@ -29,4 +29,7 @@ fun main() {
 //    val arr2 = intArrayOf(1,2,6)
 //    var arr3 = intArrayOf()
 //    print(merge(arr1, arr2, arr3))
+
+    val arr = intArrayOf(1,2,-2,-21,-4,13,2)
+    println(kadaneAlg(arr))
 }
