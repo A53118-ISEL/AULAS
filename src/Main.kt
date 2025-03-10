@@ -30,6 +30,6 @@ fun main() {
 //    var arr3 = intArrayOf()
 //    print(merge(arr1, arr2, arr3))
 
-    val arr = intArrayOf(1,2,-2,-21,-4,13,2)
+    val arr = intArrayOf(1,2,-2,-21,-4,13,2,3)
     println(kadaneAlg(arr))
 }

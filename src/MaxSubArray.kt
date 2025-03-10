@@ -39,6 +39,8 @@ fun MaxSubArr(arr: IntArray, left: Int, right: Int): Triple {
     return Triple(l, r, sum)
 }
 
+
+
 //Online Research
 fun max(i1: Unit, i2: Unit) {
     if (i1 >= i2) i1
@@ -48,7 +50,7 @@ fun max(i1: Unit, i2: Unit) {
 fun kadaneAlg(arr: IntArray) {
     var maxCurrent = arr[0]
     var maxGlobal = arr[0]
-    for (i in left..arr.size-1) {
+    for (i in arr.indices) {
         maxCurrent = max(arr[i], maxCurrent+arr[i])
             if (maxCurrent > maxGlobal) maxCurrent = maxGlobal
     }
