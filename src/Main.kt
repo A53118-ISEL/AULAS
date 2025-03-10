@@ -18,7 +18,7 @@ fun main() {
 
 //    println(MaxSubArr(intArrayOf(13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7), 0, 15))
 
-    //Copia o endereço do array e não o array em si.
+    //Copia o endereço do array e não o array em si.?
 //    println(insertionSort1(a: CharArray))
 //    println("Took: ${measureTime { insertionSort1(a: CharArray) }}")
 
